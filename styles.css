@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+header {
+    background-color: #1f1f1f; /* Darker header background */
+    color: #ffffff; /* Bright white text for contrast */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    color: #76c7c0; /* Teal accent for section titles */
+    border-bottom: 2px solid #76c7c0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.certificate {
+    background: #1f1f1f; /* Slightly lighter dark card background */
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #333; /* Subtle border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Softer shadow */
+}
+
+.certificate h3 {
+    margin-top: 0;
+    color: #76c7c0; /* Teal accent for course titles */
+}
+
+.certificate p {
+    color: #b3b3b3; /* Slightly muted text for descriptions */
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #333; /* Border around images */
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #1f1f1f; /* Footer background */
+    color: #b3b3b3; /* Muted text for footer */
+}
+
+footer a {
+    color: #76c7c0; /* Teal accent for links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
